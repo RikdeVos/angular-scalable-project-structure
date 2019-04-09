@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class LocalStorageService {
-
-  constructor() { }
+  constructor() {
+    console.log('Hello from LocalStorageService');
+  }
 }
