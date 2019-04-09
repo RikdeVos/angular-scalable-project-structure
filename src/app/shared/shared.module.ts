@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { ButtonAComponent } from './button-a/button-a.component';
-import { ButtonBComponent } from './button-b/button-b.component';
+
+import * as fromComponents from './components';
 
 @NgModule({
-  declarations: [ButtonAComponent, ButtonBComponent],
-  imports: [
-    CommonModule
-  ]
+  declarations: [...fromComponents.components],
+  imports: [CommonModule, FormsModule],
+  exports: [FormsModule, ...fromComponents.components]
 })
-export class SharedModule { }
+export class SharedModule {}
