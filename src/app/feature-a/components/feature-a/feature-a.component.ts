@@ -6,7 +6,7 @@ import { environment } from '@env';
 @Component({
   selector: 'app-feature-a',
   templateUrl: './feature-a.component.html',
-  styleUrls: ['./feature-a.component.sass']
+  styleUrls: ['./feature-a.component.scss']
 })
 export class FeatureAComponent implements OnInit {
   public foo: string;
