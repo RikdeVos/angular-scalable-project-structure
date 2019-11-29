@@ -1,6 +1,6 @@
 # BestPracticesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+This project was created to demonstrate [5 Tips & Best Practices to Organize your Angular Project](https://medium.com/dev-jam/5-tips-best-practices-to-organize-your-angular-project-e900db08702e).
 
 ## Development server
 
